@@ -87,5 +87,23 @@ describe('TVDB', () => {
         })
       })
     })
+
+    context('when there is a language parameter', () => {
+      it('uses it in the URL to define the language', () => {
+        const englishMock = nock('http://thetvdb.com/api')
+          .get('/API_KEY/series/123/all/en.xml')
+          .reply('200', '<Data><Series><id>123</id></Series></Data>', { 'Content-Type': 'application/xml' })
+
+        const frenchMock = nock('http://thetvdb.com/api')
+          .get('/API_KEY/series/123/all/fr.xml')
+          .reply('200', '<Data><Series><id>123</id></Series></Data>', { 'Content-Type': 'application/xml' })
+
+        return tv.find('123', 'fr')
+        .then((serie) => {
+          expect(englishMock.isDone()).to.be.false
+          expect(frenchMock.isDone()).to.be.true
+        })
+      })
+    })
   })
 })
