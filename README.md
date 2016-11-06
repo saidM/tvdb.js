@@ -10,6 +10,12 @@ Node.js wrapper for thetvdb.com API. It is promise-based and uses the ES6 syntax
 - Returns the season & episode numbers as integers
 - Multi-language support
 
+## Installation
+
+```javascript
+npm install tvdb.js
+```
+
 ## Initialization
 
 ```javascript
