@@ -38,7 +38,7 @@ tv.find('The Big Bang Theory', 'fr')
 The query above returns the show as well as all the episodes:
 
 ```javascript
-serie = tv.find('The Big Bang Theory')
+tv.find('The Big Bang Theory')
   .then((serie) => {
     console.log('Name', serie.name)
     console.log('Overview', serie.overview)
