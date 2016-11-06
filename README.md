@@ -1,4 +1,7 @@
 # tvdb.js
+
+[![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js)
+
 Node.js wrapper for thetvdb.com API. It is promise-based and uses the ES6 syntax (you must at least use the stable version of Node.js).
 
 - Promise-based
@@ -39,21 +42,21 @@ The query above returns the show as well as all the episodes:
 
 ```javascript
 tv.find('The Big Bang Theory')
-  .then((serie) => {
-    console.log('Name', serie.name)
-    console.log('Overview', serie.overview)
+.then((serie) => {
+  console.log('Name', serie.name)
+  console.log('Overview', serie.overview)
 
-    console.log('Episodes count', serie.episodes.length)
+  console.log('Episodes count', serie.episodes.length)
 
-   // Make use of the native find Javascript function to filter the episodes
-   const episode = serie.episodes.find(ep => ep.name == 'The Robotic Manipulation')
-   console.log('Episode Name', episode.name) // The Robotic Manipulation
+  // Make use of the native find Javascript function to filter the episodes
+  const episode = serie.episodes.find(ep => ep.name == 'The Robotic Manipulation')
+  console.log('Episode Name', episode.name) // The Robotic Manipulation
 
-   // Access the episode's season and number
-   console.log('Season', episode.season)
-   console.log('Number', episode.number)
-  })
-  .catch(err => console.error(err) // Failed to fetch the serie
+  // Access the episode's season and number
+  console.log('Season', episode.season)
+  console.log('Number', episode.number)
+})
+.catch(err => console.error(err) // Failed to fetch the serie
 ```
 ## Licence
 
