@@ -56,7 +56,7 @@ tv.find('The Big Bang Theory')
   console.log('Season', episode.season)
   console.log('Number', episode.number)
 })
-.catch(err => console.error(err) // Failed to fetch the serie
+.catch(err => console.error(err)) // Failed to fetch the serie
 ```
 ## Licence
 
