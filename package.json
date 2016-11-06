@@ -1,13 +1,13 @@
 {
   "name": "tvdb.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js wrapper for thetvdb.com API",
+  "main": "tvdb.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.16.6",
     "request": "^2.78.0",

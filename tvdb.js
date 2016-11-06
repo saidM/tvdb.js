@@ -1,6 +1,6 @@
 'use strict'
 
-const request = require('./request')
+const request = require('./lib/request')
 
 class TVDB {
   constructor(apiKey) {

@@ -4,7 +4,7 @@ const chai            = require('chai'),
       chaiAsPromised  = require('chai-as-promised'),
       expect          = chai.expect,
       nock            = require('nock'),
-      tv              = require('../lib/tvdb')('API_KEY')
+      tv              = require('../tvdb')('API_KEY')
 
 chai.use(chaiAsPromised)
 
