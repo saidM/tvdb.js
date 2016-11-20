@@ -44,7 +44,7 @@ tv.find('The Big Bang Theory', 'fr')
 
 ## Retrieve a show episodes
 
-The query above returns the show as well as all the episodes:
+This query returns the show as well as all the episodes:
 
 ```javascript
 tv.find('The Big Bang Theory')

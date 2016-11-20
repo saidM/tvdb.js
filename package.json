@@ -6,13 +6,13 @@
   "scripts": {
     "test": "mocha"
   },
+  "keywords": ["tvdb", "thetvdb", "tv", "tv api", "tv shows", "shows"],
   "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.16.6",
     "request": "^2.78.0",
-    "xml2js": "^0.4.17",
-    "xml2json": "^0.10.0"
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "chai": "^3.5.0",
