@@ -1,7 +1,8 @@
 # tvdb.js
 
 [![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js)
-[![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/tvdb.js))
+
+[![NPM](https://nodei.co/npm/tvdb.js.png?downloads=true)](https://nodei.co/npm/tvdb.js/)
 
 Node.js wrapper for thetvdb.com API. It is promise-based and uses the ES6 syntax (you must at least use the stable version of Node.js).
 
