@@ -1,6 +1,6 @@
 {
   "name": "tvdb.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js wrapper for thetvdb.com API",
   "main": "tvdb.js",
   "scripts": {
