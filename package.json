@@ -1,12 +1,19 @@
 {
   "name": "tvdb.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for thetvdb.com API",
   "main": "tvdb.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": ["tvdb", "thetvdb", "tv", "tv api", "tv shows", "shows"],
+  "keywords": [
+    "tvdb",
+    "thetvdb",
+    "tv",
+    "tv api",
+    "tv shows",
+    "shows"
+  ],
   "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
   "license": "MIT",
   "repository": {
