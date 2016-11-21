@@ -9,6 +9,10 @@
   "keywords": ["tvdb", "thetvdb", "tv", "tv api", "tv shows", "shows"],
   "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saidM/tvdb.js"
+  },
   "dependencies": {
     "lodash": "^4.16.6",
     "request": "^2.78.0",

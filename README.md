@@ -1,6 +1,7 @@
 # tvdb.js
 
 [![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js)
+[![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/tvdb.js))
 
 Node.js wrapper for thetvdb.com API. It is promise-based and uses the ES6 syntax (you must at least use the stable version of Node.js).
 
@@ -30,7 +31,7 @@ Retrieve a show using its ID:
 tv.find('80279')
 ```
 
-Retrive a show using its name:
+Retrieve a show using its name:
 
 ```javascript
 tv.find('The Big Bang Theory')
@@ -44,7 +45,7 @@ tv.find('The Big Bang Theory', 'fr')
 
 ## Retrieve a show episodes
 
-This query returns the show as well as all the episodes:
+The query below returns the show as well as all the episodes:
 
 ```javascript
 tv.find('The Big Bang Theory')
