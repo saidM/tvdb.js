@@ -4,9 +4,18 @@
   "description": "Node.js wrapper for thetvdb.com API",
   "main": "tvdb.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha",
+    "coveralls": "coveralls"
   },
-  "keywords": ["tvdb", "thetvdb", "tv", "tv api", "tv shows", "shows"],
+  "keywords": [
+    "tvdb",
+    "thetvdb",
+    "tv",
+    "tv api",
+    "tv shows",
+    "shows"
+  ],
   "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -21,6 +30,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
     "nock": "^9.0.2"
   }
