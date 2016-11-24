@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover _mocha",
-    "coveralls": "coveralls"
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "keywords": [
     "tvdb",
@@ -33,6 +33,7 @@
     "coveralls": "^2.11.15",
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
+    "mocha-lcov-reporter": "^1.2.0",
     "nock": "^9.0.2"
   }
 }
