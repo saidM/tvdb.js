@@ -1,6 +1,6 @@
 # tvdb.js
 
-[![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js) [![Coverage Status](https://coveralls.io/repos/github/saidM/tvdb.js/badge.svg)](https://coveralls.io/github/saidM/tvdb.js) [![NPM Downloads](https://img.shields.io/npm/dt/https://github.com/saidM/tvdb.js.svg)](https://www.npmjs.com/package/https://github.com/saidM/tvdb.js) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/saidM/tvdb.js)
+[![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js) [![Coverage Status](https://coveralls.io/repos/github/saidM/tvdb.js/badge.svg)](https://coveralls.io/github/saidM/tvdb.js) [![NPM Downloads](https://img.shields.io/npm/dt/https://github.com/saidM/tvdb.js.svg)](https://www.npmjs.com/package/tvdb.js) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/saidM/tvdb.js)
 
 [![NPM](https://nodei.co/npm/tvdb.js.png?downloads=true)](https://nodei.co/npm/tvdb.js/)
 
