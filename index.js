@@ -23,7 +23,7 @@ class TVDB {
   }
 }
 
-module.exports = ((apiKey) => {
+module.exports = apiKey => {
   const tv = new TVDB(apiKey)
   return { apiKey: tv.apiKey, find: tv.find }
-})
+}
