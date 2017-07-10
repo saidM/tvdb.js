@@ -50,10 +50,9 @@ The query below returns the show as well as all the episodes:
 
 ```javascript
 tv.find('The Big Bang Theory')
-.then((serie) => {
+.then(serie => {
   console.log('Name', serie.name)
   console.log('Overview', serie.overview)
-
   console.log('Episodes count', serie.episodes.length)
 
   // Make use of the native find Javascript function to filter the episodes
