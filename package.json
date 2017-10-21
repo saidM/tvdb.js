@@ -1,6 +1,6 @@
 {
   "name": "tvdb.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js wrapper for thetvdb.com API",
   "main": "tvdb.js",
   "scripts": {
@@ -25,7 +25,10 @@
   "xo": {
     "space": true,
     "semicolon": false,
-    "envs": ["node", "mocha"]
+    "envs": [
+      "node",
+      "mocha"
+    ]
   },
   "dependencies": {
     "lodash": "^4.16.6",
