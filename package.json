@@ -22,6 +22,11 @@
     "type": "git",
     "url": "https://github.com/saidM/tvdb.js"
   },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "envs": ["node", "mocha"]
+  },
   "dependencies": {
     "lodash": "^4.16.6",
     "request": "^2.78.0",
@@ -34,6 +39,7 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
     "mocha-lcov-reporter": "^1.2.0",
-    "nock": "^9.0.2"
+    "nock": "^9.0.2",
+    "xo": "^0.18.2"
   }
 }
