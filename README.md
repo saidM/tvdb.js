@@ -1,6 +1,6 @@
 # tvdb.js
 
-[![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?branch=master)](https://travis-ci.org/saidM/tvdb.js) [![Coverage Status](https://coveralls.io/repos/github/saidM/tvdb.js/badge.svg)](https://coveralls.io/github/saidM/tvdb.js) [![NPM Downloads](https://img.shields.io/npm/dt/tvdb.js.svg)](https://www.npmjs.com/package/tvdb.js) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/saidM/tvdb.js) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/saidM/tvdb.js)
+[![Build Status](https://travis-ci.org/saidM/tvdb.js.svg?style=flat-square&branch=master)](https://travis-ci.org/saidM/tvdb.js) [![Coverage Status](https://coveralls.io/repos/github/saidM/tvdb.js/badge.svg?style=flat-square)](https://coveralls.io/github/saidM/tvdb.js) [![NPM Downloads](https://img.shields.io/npm/dt/tvdb.js.svg?style=flat-square)](https://www.npmjs.com/package/tvdb.js) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/saidM/tvdb.js) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/saidM/tvdb.js)
 
 [![NPM](https://nodei.co/npm/tvdb.js.png?downloads=true)](https://nodei.co/npm/tvdb.js/)
 
