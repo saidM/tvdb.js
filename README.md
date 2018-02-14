@@ -66,12 +66,25 @@ tv.find('The Big Bang Theory')
 .catch(err => console.error(err)) // Failed to fetch the serie
 ```
 
-You can also use the `await` keyword:
+You can also use the `await` keyword (this is an ES6 feature):
 
 ```javascript
-const show = await tv.find('The Big Bang Theory')
-console.log('Name', show.name)
-console.log('Episodes count', show.episodes.length)
+try {
+  const show = await tv.find('The Big Bang Theory')
+  console.log('Name', show.name)
+  console.log('Overview', show.overview)
+  console.log('Episodes count', show.episodes.length)
+
+  // Make use of the native find Javascript function to filter the episodes
+  const episode = show.episodes.find(ep => ep.name == 'The Robotic Manipulation')
+  console.log('Episode Name', episode.name) // The Robotic Manipulation
+
+  // Access the episode's season and number
+  console.log('Season', episode.season)
+  console.log('Number', episode.number)
+} catch (err) {
+  console.error(err) 
+}
 ```
 
 ## Licence
