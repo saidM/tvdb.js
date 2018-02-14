@@ -65,6 +65,15 @@ tv.find('The Big Bang Theory')
 })
 .catch(err => console.error(err)) // Failed to fetch the serie
 ```
+
+You can also use the `await` keyword:
+
+```javascript
+const show = await tv.find('The Big Bang Theory')
+console.log('Name', show.name)
+console.log('Episodes count', show.episodes.length)
+```
+
 ## Licence
 
 MIT
